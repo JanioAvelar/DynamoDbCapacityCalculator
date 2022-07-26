@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapacityCalculator.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapacityCalculator.Application", "Core\CapacityCalculator.Application\CapacityCalculator.Application.csproj", "{FBB3218F-1057-4B0A-B4E1-716EF3D7DA3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapacityCalculator.API", "Ports\CapacityCalculator.API\CapacityCalculator.API.csproj", "{669D8BAE-79C9-4216-925E-EEE021B9BA55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,11 +44,16 @@ Global
 		{FBB3218F-1057-4B0A-B4E1-716EF3D7DA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB3218F-1057-4B0A-B4E1-716EF3D7DA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB3218F-1057-4B0A-B4E1-716EF3D7DA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669D8BAE-79C9-4216-925E-EEE021B9BA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669D8BAE-79C9-4216-925E-EEE021B9BA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669D8BAE-79C9-4216-925E-EEE021B9BA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669D8BAE-79C9-4216-925E-EEE021B9BA55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0A5C38EE-0080-4BA4-8F6F-A5AD33850B77} = {B39E34A2-EA66-4DB5-B43D-9D21138E3C05}
 		{9F54A474-5791-4560-83FC-25126C5113D3} = {718983CE-4B50-458E-BD59-07CE30920CF9}
 		{FC3C9775-E12D-4B8A-9491-91059A7E0A36} = {522DC1AE-CB71-480D-A5DD-8D6FD9256FC4}
 		{FBB3218F-1057-4B0A-B4E1-716EF3D7DA3D} = {718983CE-4B50-458E-BD59-07CE30920CF9}
+		{669D8BAE-79C9-4216-925E-EEE021B9BA55} = {B39E34A2-EA66-4DB5-B43D-9D21138E3C05}
 	EndGlobalSection
 EndGlobal

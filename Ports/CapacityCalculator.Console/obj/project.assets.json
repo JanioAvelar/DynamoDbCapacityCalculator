@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CapacityCalculator.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CapacityCalculator.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapacityCalculator.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapacityCalculator.Application.dll": {}
+        }
+      },
+      "CapacityCalculator.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CapacityCalculator.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapacityCalculator.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CapacityCalculator.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/CapacityCalculator.Application/CapacityCalculator.Application.csproj",
+      "msbuildProject": "../../Core/CapacityCalculator.Application/CapacityCalculator.Application.csproj"
+    },
+    "CapacityCalculator.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/CapacityCalculator.Domain/CapacityCalculator.Domain.csproj",
+      "msbuildProject": "../../Core/CapacityCalculator.Domain/CapacityCalculator.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CapacityCalculator.Application >= 1.0.0",
+      "CapacityCalculator.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ACT\\.nuget\\packages\\": {}
@@ -33,7 +71,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Application\\CapacityCalculator.Application.csproj": {
+              "projectPath": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Application\\CapacityCalculator.Application.csproj"
+            },
+            "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Domain\\CapacityCalculator.Domain.csproj": {
+              "projectPath": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Domain\\CapacityCalculator.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
