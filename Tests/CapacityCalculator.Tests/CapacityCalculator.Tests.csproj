@@ -20,4 +20,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\CapacityCalculator.Application\CapacityCalculator.Application.csproj" />
+    <ProjectReference Include="..\..\Core\CapacityCalculator.Domain\CapacityCalculator.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

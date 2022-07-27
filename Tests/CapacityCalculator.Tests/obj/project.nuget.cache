@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5BJdcxJugHkn2O97eH0MRuegK/hrUKoKo+QUE+6vfs/FMhSfTV+pOm60e9N46uE2fwQ12WMjB90/pJg0DQjBfA==",
+  "dgSpecHash": "v6G4n/Ed57z+YoYAW+bZ0YD81RCMhmX8OO/N0qHtNeoJpcdl4kV3y2odfP4/uYuEJ0HSJgY2hvNF9ez9BQoaSA==",
   "success": true,
   "projectFilePath": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Tests\\CapacityCalculator.Tests\\CapacityCalculator.Tests.csproj",
   "expectedPackageFiles": [

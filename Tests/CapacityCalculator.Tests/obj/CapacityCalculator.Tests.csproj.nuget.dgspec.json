@@ -4,6 +4,118 @@
     "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Tests\\CapacityCalculator.Tests\\CapacityCalculator.Tests.csproj": {}
   },
   "projects": {
+    "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Application\\CapacityCalculator.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Application\\CapacityCalculator.Application.csproj",
+        "projectName": "CapacityCalculator.Application",
+        "projectPath": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Application\\CapacityCalculator.Application.csproj",
+        "packagesPath": "C:\\Users\\ACT\\.nuget\\packages\\",
+        "outputPath": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Domain\\CapacityCalculator.Domain.csproj": {
+                "projectPath": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Domain\\CapacityCalculator.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Domain\\CapacityCalculator.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Domain\\CapacityCalculator.Domain.csproj",
+        "projectName": "CapacityCalculator.Domain",
+        "projectPath": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Domain\\CapacityCalculator.Domain.csproj",
+        "packagesPath": "C:\\Users\\ACT\\.nuget\\packages\\",
+        "outputPath": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ACT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Tests\\CapacityCalculator.Tests\\CapacityCalculator.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +139,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Application\\CapacityCalculator.Application.csproj": {
+                "projectPath": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Application\\CapacityCalculator.Application.csproj"
+              },
+              "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Domain\\CapacityCalculator.Domain.csproj": {
+                "projectPath": "C:\\Repository\\aws-project\\DynamoDbCapacityCalculator\\Core\\CapacityCalculator.Domain\\CapacityCalculator.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
